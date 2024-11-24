@@ -13,14 +13,19 @@ typedef MovieCallBack = Future<List<Movie>> Function({int page});
 class MoviesNotifier extends StateNotifier<List<Movie>> {
   int currentPage = 0;
   MovieCallBack fetchMoreMovies;
+  bool isLoading = false;
 
   MoviesNotifier({
     required this.fetchMoreMovies,
   }) : super([]);
 
   Future<void> loadNextPage() async {
+    if (isLoading) return;
+    isLoading = true;
+    print('Cargando');
     currentPage++;
     final List<Movie> movies = await fetchMoreMovies(page: currentPage);
     state = [...state, ...movies];
+    isLoading = false;
   }
 }
