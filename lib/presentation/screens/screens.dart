@@ -1,2 +1,3 @@
-export 'package:cinemapedia/presentation/screens/movies/home_movie_screen.dart';
+export 'movies/home_movie_screen.dart';
+export 'movies/movie_screen.dart';
 
