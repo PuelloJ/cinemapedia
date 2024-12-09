@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 
 class AppTheme {
   ThemeData getTheme() => ThemeData(
-      colorSchemeSeed: const Color(0xFF2862f5),
-      appBarTheme: const AppBarTheme(centerTitle: true));
+        colorSchemeSeed: const Color(0xFF2862f5),
+        // brightness: Brightness.dark,
+        appBarTheme: const AppBarTheme(centerTitle: true),
+      );
 }
