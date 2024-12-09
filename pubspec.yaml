@@ -18,12 +18,13 @@ dependencies:
   intl: ^0.20.0
   isar: ^3.1.0+1
   isar_flutter_libs: ^3.1.0+1
+  path_provider: ^2.1.5
 
 dev_dependencies:
-  flutter_test:
-    sdk: flutter
   build_runner: ^2.4.13
   flutter_lints: ^3.0.0
+  flutter_test:
+    sdk: flutter
   isar_generator: ^3.1.0+1
 
 flutter:
