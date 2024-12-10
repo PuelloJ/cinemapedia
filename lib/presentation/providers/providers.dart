@@ -14,3 +14,4 @@ export 'search/search_movies_provider.dart';
 
 // Local Storage
 export 'storage/local_storage_provider.dart';
+export 'storage/favorite_movies_provider.dart';
