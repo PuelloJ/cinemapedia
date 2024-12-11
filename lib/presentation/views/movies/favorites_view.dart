@@ -1,4 +1,3 @@
-import 'package:cinemapedia/config/router/app_router.dart';
 import 'package:cinemapedia/presentation/providers/providers.dart';
 import 'package:cinemapedia/presentation/widgets/widgets.dart';
 import 'package:flutter/material.dart';
